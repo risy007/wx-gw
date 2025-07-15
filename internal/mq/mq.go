@@ -119,7 +119,7 @@ func (s *Service) MsgHandler(ctx context.Context, msg *nats.Msg) {
 		//s.log.Debug(wxmsg.MarkDown.Content)
 	} else if msg.Subject == "radius.auth.reject" {
 		//处理radius.auth.reject消息
-		var ramsg
+
 	}
 	//s.log.Info(fmt.Sprintf("接收到 NATS Message ，Subject = %s", msg.Subject), zap.ByteString("msg", msg.Data))
 	//s.wecom.SendTextMessage(msg.Subject)
