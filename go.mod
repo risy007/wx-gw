@@ -1,4 +1,4 @@
-module wx-gw
+module github.com/risy007/wx-gw
 
 go 1.23.10
 
