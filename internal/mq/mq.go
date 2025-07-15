@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/nats-io/nats.go"
+	"github.com/risy007/wx-gw/config"
+	"github.com/risy007/wx-gw/internal/weixin"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 	"sync"
-	"wx-gw/config"
-	"wx-gw/internal/weixin"
 )
 
 type (
