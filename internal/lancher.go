@@ -2,12 +2,12 @@ package internal
 
 import (
 	"context"
+	"github.com/risy007/wx-gw/config"
+	"github.com/risy007/wx-gw/internal/logger"
+	"github.com/risy007/wx-gw/internal/mq"
+	"github.com/risy007/wx-gw/internal/weixin"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
-	"wx-gw/config"
-	"wx-gw/internal/logger"
-	"wx-gw/internal/mq"
-	"wx-gw/internal/weixin"
 )
 
 var Module = fx.Options(

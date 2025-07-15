@@ -2,8 +2,8 @@ package logger
 
 import (
 	"github.com/orandin/lumberjackrus"
+	"github.com/risy007/wx-gw/config"
 	"github.com/sirupsen/logrus"
-	"wx-gw/config"
 )
 
 func NewLogrusLogger(conf *config.Config) (log *logrus.Logger, err error) {

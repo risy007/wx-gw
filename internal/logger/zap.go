@@ -1,6 +1,7 @@
 package logger
 
 import (
+	"github.com/risy007/wx-gw/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
@@ -8,7 +9,6 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
-	"wx-gw/config"
 )
 
 const TimeFormat = "2006-01-02 15:04:05"

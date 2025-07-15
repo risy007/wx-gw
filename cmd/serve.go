@@ -1,11 +1,11 @@
 package cmd
 
 import (
+	"github.com/risy007/wx-gw/internal"
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxevent"
 	"go.uber.org/zap"
-	"wx-gw/internal"
 )
 
 var configFile string

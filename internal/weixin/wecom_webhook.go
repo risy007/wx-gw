@@ -3,6 +3,7 @@ package weixin
 import (
 	"crypto/tls"
 	"errors"
+	"github.com/risy007/wx-gw/config"
 	"github.com/xen0n/go-workwx/v2"
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
@@ -11,7 +12,6 @@ import (
 	"net/http"
 	"os"
 	"time"
-	"wx-gw/config"
 )
 
 type (
